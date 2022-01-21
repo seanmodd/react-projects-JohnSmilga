@@ -3,8 +3,13 @@ import data from './data';
 import SingleQuestion from './Question';
 
 function App() {
-        return;
-        <h2>accordion project setup</h2>;
+  return (
+    <>
+      <h1>sample</h1>
+      <h2>accordion pddddroject setup</h2>
+      <SingleQuestion data={data} />
+    </>
+  );
 }
 
 export default App;
